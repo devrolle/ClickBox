@@ -98,7 +98,7 @@ function DisplayGameplay() {
         transparent 10%,
         rgba(0, 0, 0, 1) 50%
         )
-        `;
+      `;
     }
   });
 
