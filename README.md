@@ -5,4 +5,3 @@ Click Box is a simple yet fun game where you're tasked with finding the hidden b
 ## What Inspired Click Box?
 
 **Boredom.**
-Tessting main branch push
