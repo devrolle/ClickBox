@@ -61,7 +61,7 @@ function DisplayGameplay() {
         <div class="spotlight" />
         <p id="score_display">Score: ${score}</p>
         <p id="timer">Time Left: ${time >= 10 ? time : `0${time}`}s</p>
-      </div>
+        </div>
     `;
 
   // Create a timer that updates the #timer element every second
@@ -111,6 +111,8 @@ function DisplayGameplay() {
   const scoreElement = document.querySelector("#score_display");
 
   randomBox.addEventListener("click", () => {
+    const audio = new Audio("/assets/pop.mp3");
+    audio.play();
     scoreElement.innerHTML = `Score: ${score + 1}`;
     score += 1;
     randomBox.style.top = `${Math.random() * 85}vh`;
