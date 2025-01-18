@@ -16,6 +16,8 @@ function DisplayGameStart() {
             <h1>Welcome ${username}!</h1>
             <p>Current High Score: ${highscore}</p>
             <button id="game_start_btn">Start!</button>
+            <br />
+            <a id="github_link" href="https://github.com/devrolle/ClickBox" target="_blank">View Source Code</a>
         </div>
     `;
 
